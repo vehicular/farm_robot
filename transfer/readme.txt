@@ -1,10 +1,9 @@
-IO :
-
+﻿IO :
 
 key PA0 PC13 PH2,PH3
 
-//TIM10  ch1  PF6 left motor PWM
-//TIM11  ch1  PF7 right motor PWM
+TIM10  ch1  PF6 left motor PWM
+TIM11  ch1  PF7 right motor PWM
 
 #define KEY0        HAL_GPIO_ReadPin(GPIOH,GPIO_PIN_3)  //KEY0按键PH3
 #define KEY1        HAL_GPIO_ReadPin(GPIOH,GPIO_PIN_2)  //KEY1按键PH2
