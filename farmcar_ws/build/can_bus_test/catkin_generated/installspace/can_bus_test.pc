@@ -1,0 +1,8 @@
+prefix=/home/nvidia/farmcar_ws/install
+
+Name: can_bus_test
+Description: Description of can_bus_test
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/nvidia/farmcar_ws/install/lib 
+Requires: 
